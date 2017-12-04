@@ -2,12 +2,12 @@ package hello
 
 fun main(args : Array<String>){
 
-    val greeter = Hello()
+    val greeter = Greeter()
     val greet = greeter.greet()
 
     println(greet)
 }
 
-class Hello{
+class Greeter {
     fun greet() = "Hello World!"
 }

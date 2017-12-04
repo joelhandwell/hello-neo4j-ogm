@@ -9,7 +9,7 @@ import kotlin.test.assertEquals
 object HelloTest: Spek({
     describe("Greeter") {
         it("should greet with standard greeting"){
-            val greeter = Hello()
+            val greeter = Greeter()
 
             assertEquals("Hello World!", greeter.greet())
         }
