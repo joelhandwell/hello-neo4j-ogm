@@ -37,6 +37,8 @@
     <orderEntry type="module" module-name="hellok_main" />
     <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.2.0" level="project" />
     <orderEntry type="library" name="Gradle: org.neo4j:neo4j:3.3.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.neo4j:neo4j-ogm-embedded-driver:3.0.2" level="project" />
+    <orderEntry type="library" name="Gradle: org.neo4j:neo4j-ogm-core:3.0.2" level="project" />
     <orderEntry type="library" name="Gradle: org.jetbrains.spek:spek-api:1.1.5" level="project" />
     <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-test:1.2.0" level="project" />
     <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.2.0" level="project" />
@@ -54,11 +56,28 @@
     <orderEntry type="library" name="Gradle: org.neo4j:neo4j-command-line:3.3.0" level="project" />
     <orderEntry type="library" name="Gradle: org.neo4j:neo4j-kernel:3.3.0" level="project" />
     <orderEntry type="library" name="Gradle: org.neo4j:neo4j-jmx:3.3.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.neo4j:neo4j-ogm-api:3.0.2" level="project" />
     <orderEntry type="library" name="Gradle: org.neo4j:neo4j-configuration:3.3.0" level="project" />
     <orderEntry type="library" name="Gradle: org.neo4j:neo4j-ssl:3.3.0" level="project" />
     <orderEntry type="library" name="Gradle: org.neo4j:neo4j-logging:3.3.0" level="project" />
     <orderEntry type="library" name="Gradle: org.neo4j:neo4j-index:3.3.0" level="project" />
     <orderEntry type="library" name="Gradle: org.neo4j:neo4j-io:3.3.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.neo4j:neo4j-codegen:3.3.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.neo4j:neo4j-cypher-compiler-2.3:2.3.11" level="project" />
+    <orderEntry type="library" name="Gradle: org.neo4j:neo4j-cypher-frontend-2.3:2.3.11" level="project" />
+    <orderEntry type="library" name="Gradle: org.neo4j:neo4j-cypher-compiler-3.1:3.1.6" level="project" />
+    <orderEntry type="library" name="Gradle: org.neo4j:neo4j-cypher-frontend-3.1:3.1.6" level="project" />
+    <orderEntry type="library" name="Gradle: org.neo4j:neo4j-cypher-compiler-3.2:3.2.5" level="project" />
+    <orderEntry type="library" name="Gradle: org.neo4j:neo4j-cypher-ir-3.2:3.2.5" level="project" />
+    <orderEntry type="library" name="Gradle: org.neo4j:neo4j-cypher-frontend-3.2:3.2.5" level="project" />
+    <orderEntry type="library" name="Gradle: org.neo4j:neo4j-cypher-compiler-3.3:3.3.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.neo4j:neo4j-cypher-logical-plans-3.3:3.3.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.neo4j:neo4j-cypher-ir-3.3:3.3.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.neo4j:neo4j-cypher-frontend-3.3:3.3.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.apache.commons:commons-text:1.1" level="project" />
+    <orderEntry type="library" name="Gradle: org.apache.commons:commons-lang3:3.5" level="project" />
+    <orderEntry type="library" name="Gradle: io.github.lukehutch:fast-classpath-scanner:2.7.4" level="project" />
+    <orderEntry type="library" name="Gradle: commons-io:commons-io:2.4" level="project" />
     <orderEntry type="library" name="Gradle: org.neo4j:neo4j-graphdb-api:3.3.0" level="project" />
     <orderEntry type="library" name="Gradle: org.neo4j:neo4j-csv:3.3.0" level="project" />
     <orderEntry type="library" name="Gradle: org.neo4j:neo4j-collections:3.3.0" level="project" />
@@ -71,24 +90,13 @@
     <orderEntry type="library" name="Gradle: org.apache.lucene:lucene-codecs:5.5.0" level="project" />
     <orderEntry type="library" name="Gradle: org.apache.lucene:lucene-backward-codecs:5.5.0" level="project" />
     <orderEntry type="library" name="Gradle: org.apache.lucene:lucene-core:5.5.0" level="project" />
-    <orderEntry type="library" name="Gradle: org.neo4j:neo4j-cypher-compiler-2.3:2.3.11" level="project" />
-    <orderEntry type="library" name="Gradle: org.neo4j:neo4j-cypher-frontend-2.3:2.3.11" level="project" />
     <orderEntry type="library" name="Gradle: org.scala-lang:scala-reflect:2.11.11" level="project" />
     <orderEntry type="library" name="Gradle: org.scala-lang:scala-library:2.11.11" level="project" />
-    <orderEntry type="library" name="Gradle: org.neo4j:neo4j-codegen:3.3.0" level="project" />
-    <orderEntry type="library" name="Gradle: org.neo4j:neo4j-cypher-compiler-3.1:3.1.6" level="project" />
-    <orderEntry type="library" name="Gradle: org.neo4j:neo4j-cypher-compiler-3.2:3.2.5" level="project" />
-    <orderEntry type="library" name="Gradle: org.neo4j:neo4j-cypher-compiler-3.3:3.3.0" level="project" />
-    <orderEntry type="library" name="Gradle: org.neo4j:neo4j-cypher-frontend-3.1:3.1.6" level="project" />
-    <orderEntry type="library" name="Gradle: org.neo4j:neo4j-cypher-ir-3.2:3.2.5" level="project" />
-    <orderEntry type="library" name="Gradle: org.neo4j:neo4j-cypher-frontend-3.2:3.2.5" level="project" />
-    <orderEntry type="library" name="Gradle: org.neo4j:neo4j-cypher-logical-plans-3.3:3.3.0" level="project" />
-    <orderEntry type="library" name="Gradle: org.neo4j:neo4j-cypher-ir-3.3:3.3.0" level="project" />
-    <orderEntry type="library" name="Gradle: org.neo4j:neo4j-cypher-frontend-3.3:3.3.0" level="project" />
     <orderEntry type="library" name="Gradle: org.parboiled:parboiled-scala_2.11:1.1.7" level="project" />
     <orderEntry type="library" name="Gradle: net.sf.opencsv:opencsv:2.3" level="project" />
-    <orderEntry type="library" name="Gradle: org.apache.commons:commons-text:1.1" level="project" />
-    <orderEntry type="library" name="Gradle: org.apache.commons:commons-lang3:3.5" level="project" />
+    <orderEntry type="library" name="Gradle: com.fasterxml.jackson.core:jackson-databind:2.7.1" level="project" />
+    <orderEntry type="library" name="Gradle: org.slf4j:slf4j-api:1.7.21" level="project" />
+    <orderEntry type="library" name="Gradle: commons-codec:commons-codec:1.10" level="project" />
     <orderEntry type="library" name="Gradle: org.neo4j:neo4j-resource:3.3.0" level="project" />
     <orderEntry type="library" name="Gradle: org.neo4j:neo4j-unsafe:3.3.0" level="project" />
     <orderEntry type="library" name="Gradle: io.netty:netty-all:4.1.15.Final" level="project" />
@@ -101,6 +109,8 @@
     <orderEntry type="library" name="Gradle: com.github.ben-manes.caffeine:caffeine:2.3.3" level="project" />
     <orderEntry type="library" name="Gradle: org.parboiled:parboiled-core:1.1.7" level="project" />
     <orderEntry type="library" name="Gradle: org.apache.commons:commons-compress:1.12" level="project" />
+    <orderEntry type="library" name="Gradle: com.fasterxml.jackson.core:jackson-annotations:2.7.0" level="project" />
+    <orderEntry type="library" name="Gradle: com.fasterxml.jackson.core:jackson-core:2.7.1" level="project" />
     <orderEntry type="library" name="Gradle: org.jetbrains:annotations:13.0" level="project" />
     <orderEntry type="library" name="Gradle: org.bouncycastle:bcprov-jdk15on:1.53" level="project" />
   </component>

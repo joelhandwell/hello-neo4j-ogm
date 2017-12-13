@@ -11,7 +11,7 @@ buildscript {
     dependencies {
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
         classpath 'org.junit.platform:junit-platform-gradle-plugin:1.0.0'
-        classpath "com.github.jengelman.gradle.plugins:shadow:2.0.1"
+        // classpath "com.github.jengelman.gradle.plugins:shadow:2.0.1"
     }
 }
 
@@ -20,7 +20,7 @@ version '1.0'
 
 apply plugin: 'kotlin'
 apply plugin: 'org.junit.platform.gradle.plugin'
-apply plugin: "com.github.johnrengelman.shadow"
+// apply plugin: "com.github.johnrengelman.shadow"
 
 junitPlatform {
     filters {
@@ -38,6 +38,8 @@ repositories {
 dependencies {
     compile "org.jetbrains.kotlin:kotlin-stdlib-jdk8:$kotlin_version"
     compile 'org.neo4j:neo4j:3.3.0'
+    compile 'org.neo4j:neo4j-ogm-core:3.0.2'
+    compile 'org.neo4j:neo4j-ogm-embedded-driver:3.0.2'
     testCompile 'org.jetbrains.spek:spek-api:1.1.5'
     testCompile "org.jetbrains.kotlin:kotlin-test:$kotlin_version"
     testRuntime 'org.jetbrains.spek:spek-junit-platform-engine:1.1.5'
@@ -50,7 +52,7 @@ compileTestKotlin {
     kotlinOptions.jvmTarget = "1.8"
 }
 
-shadowJar {
+/*shadowJar {
     mergeServiceFiles()
     manifest { attributes 'Main-Class': 'hello.HelloKt' }
-}
+}*/
