@@ -38,6 +38,7 @@
     <orderEntry type="library" name="Gradle: org.neo4j:neo4j:3.3.0" level="project" />
     <orderEntry type="library" name="Gradle: org.neo4j:neo4j-ogm-embedded-driver:3.0.2" level="project" />
     <orderEntry type="library" name="Gradle: org.neo4j:neo4j-ogm-core:3.0.2" level="project" />
+    <orderEntry type="library" name="Gradle: ch.qos.logback:logback-classic:1.2.3" level="project" />
     <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.2.0" level="project" />
     <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib:1.2.0" level="project" />
     <orderEntry type="library" name="Gradle: org.neo4j:neo4j-cypher:3.3.0" level="project" />
@@ -73,6 +74,8 @@
     <orderEntry type="library" name="Gradle: org.apache.commons:commons-lang3:3.5" level="project" />
     <orderEntry type="library" name="Gradle: io.github.lukehutch:fast-classpath-scanner:2.7.4" level="project" />
     <orderEntry type="library" name="Gradle: commons-io:commons-io:2.4" level="project" />
+    <orderEntry type="library" name="Gradle: ch.qos.logback:logback-core:1.2.3" level="project" />
+    <orderEntry type="library" name="Gradle: org.slf4j:slf4j-api:1.7.25" level="project" />
     <orderEntry type="library" name="Gradle: org.jetbrains:annotations:13.0" level="project" />
     <orderEntry type="library" name="Gradle: org.neo4j:neo4j-graphdb-api:3.3.0" level="project" />
     <orderEntry type="library" name="Gradle: org.neo4j:neo4j-csv:3.3.0" level="project" />
@@ -91,7 +94,6 @@
     <orderEntry type="library" name="Gradle: org.parboiled:parboiled-scala_2.11:1.1.7" level="project" />
     <orderEntry type="library" name="Gradle: net.sf.opencsv:opencsv:2.3" level="project" />
     <orderEntry type="library" name="Gradle: com.fasterxml.jackson.core:jackson-databind:2.7.1" level="project" />
-    <orderEntry type="library" name="Gradle: org.slf4j:slf4j-api:1.7.21" level="project" />
     <orderEntry type="library" name="Gradle: commons-codec:commons-codec:1.10" level="project" />
     <orderEntry type="library" name="Gradle: org.neo4j:neo4j-resource:3.3.0" level="project" />
     <orderEntry type="library" name="Gradle: org.neo4j:neo4j-unsafe:3.3.0" level="project" />

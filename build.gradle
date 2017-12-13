@@ -40,6 +40,7 @@ dependencies {
     compile 'org.neo4j:neo4j:3.3.0'
     compile 'org.neo4j:neo4j-ogm-core:3.0.2'
     compile 'org.neo4j:neo4j-ogm-embedded-driver:3.0.2'
+    compile 'ch.qos.logback:logback-classic:1.2.3'
     testCompile 'org.jetbrains.spek:spek-api:1.1.5'
     testCompile "org.jetbrains.kotlin:kotlin-test:$kotlin_version"
     testRuntime 'org.jetbrains.spek:spek-junit-platform-engine:1.1.5'
