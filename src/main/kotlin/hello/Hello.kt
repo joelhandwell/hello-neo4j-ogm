@@ -62,7 +62,7 @@ class Greeter {
 
         }
 
-        greet = "Hello World!"
+        //greet = "Hello World!"
 
         return greet
     }
