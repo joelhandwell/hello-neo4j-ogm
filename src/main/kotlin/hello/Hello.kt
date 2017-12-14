@@ -8,13 +8,22 @@ import hello.model.Organization
 import hello.model.Person
 import org.neo4j.ogm.config.Configuration
 import org.neo4j.ogm.session.SessionFactory
+import ch.qos.logback.classic.Logger
+import ch.qos.logback.classic.Level
+import org.slf4j.LoggerFactory
 
 fun main(args : Array<String>){
 
-    val greeter = Greeter()
-    val greet = greeter.greet()
+    val logger: Logger = LoggerFactory.getLogger("org.neo4j.ogm") as Logger
+    logger.level = Level.ERROR
 
+    val greeter = Greeter()
+
+    val greet = greeter.greet()
     println(greet)
+
+    val morningGreet = greeter.morningGreet()
+    println(morningGreet)
 }
 
 const val DB_PATH = "graph.db"
