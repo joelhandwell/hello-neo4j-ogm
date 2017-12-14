@@ -35,17 +35,17 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="hellok_main" />
-    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.2.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.2.10" level="project" />
     <orderEntry type="library" name="Gradle: org.neo4j:neo4j:3.3.0" level="project" />
     <orderEntry type="library" name="Gradle: org.neo4j:neo4j-ogm-embedded-driver:3.0.2" level="project" />
     <orderEntry type="library" name="Gradle: org.neo4j:neo4j-ogm-core:3.0.2" level="project" />
     <orderEntry type="library" name="Gradle: ch.qos.logback:logback-classic:1.2.3" level="project" />
     <orderEntry type="library" name="Gradle: org.jetbrains.spek:spek-api:1.1.5" level="project" />
-    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-test:1.2.0" level="project" />
-    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.2.0" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.jetbrains.spek:spek-junit-platform-engine:1.1.5" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-test:1.2.10" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.2.10" level="project" />
     <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-reflect:1.0.6" level="project" />
-    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib:1.2.0" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.jetbrains.spek:spek-junit-platform-engine:1.1.5" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib:1.2.10" level="project" />
     <orderEntry type="library" name="Gradle: org.neo4j:neo4j-cypher:3.3.0" level="project" />
     <orderEntry type="library" name="Gradle: org.neo4j:neo4j-consistency-check:3.3.0" level="project" />
     <orderEntry type="library" name="Gradle: org.neo4j:neo4j-dbms:3.3.0" level="project" />
